@@ -1,0 +1,296 @@
+.head{
+    background-color: white;
+    color: white;
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    animation: slide-in 2s ease forwards;
+}
+@keyframes slide-in{
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
+.head img{
+    height: 100px;
+    /* margin-left: 20px; */
+    margin-right:400px ;
+}
+ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline;
+    margin-left: 20px;
+}
+ nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav ul li a:hover{
+    
+    color:whitesmoke;
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+    transform:translate(2px,2px);
+    transition: 0.9 ease-in-out;
+}
+.ri1{
+    display: flex;
+    animation: slide-in 2s ease forwards;
+}
+.ri1 div h2{
+    margin-top: 90px;
+    font-weight: 800;
+    font-size: xx-large;
+    margin-left: 150px;
+    color: rgb(191, 11, 231);
+    position: relative;
+
+}
+.ri1 div p{
+    font-size:xx-large;
+    font-style: italic;
+    margin-left: 150px;
+}
+.ri2  video{
+  padding-left: 200px;
+  width:300px;
+}
+.ri3{
+    animation: slide-in 2s ease forwards;
+    font-family: "Playwrite NG Modern", cursive;
+   
+}
+.ri3 h2{
+    margin-left: 150px;
+    
+}
+.ri3 p{
+    margin-left: 150px;
+    font-weight: 700;
+}
+.ri3 button{
+    margin-left: 110px;
+    border-radius: 10px;
+}
+.ri3 button:hover{
+    color:whitesmoke;
+    background-color:darkcyan;
+    padding: 5px;
+    border-radius: 5px;
+    transform:translate(1px,1px);
+    transition: 0.9 ease-in-out;
+}
+
+.ri4{
+    width: 98%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+.ri4 img{
+    width: 300px;
+    height: 200px;
+    clip-path: circle();
+}
+.ri4 div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    flex-direction: column;
+}
+.ri4 div p{
+    padding-left: 50px;
+}
+.ri4 div a{
+    text-decoration: none;
+}
+.ri4 div a:hover{
+    color:whitesmoke;
+    background-color: darkcyan;
+    padding: 5px;
+    border-radius: 5px;
+    transform:translate(2px,2px);
+    transition: 0.9 ease-in-out;
+}
+.ri5{
+    display: flex;
+}
+.ri5 h2{
+    border: 5px solid darkcyan ;
+    border-radius: 10px;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    font-size:x-large;
+    height: 5rem;
+    width: 100%;
+    margin-top: 5%;
+   margin-left: 180px;
+}
+.ri5 button{
+    margin-left: 550px;
+    
+}
+.ri5 button:hover{
+    color:whitesmoke;
+    background-color: darkcyan;
+    padding: 5px;
+    border-radius: 5px;
+    transform:translate(2px,2px);
+    transition: 0.9 ease-in-out;
+}
+.ri4 img{
+    transition: transform 0.6s ease-in-out;
+}
+.ri4 img:hover{
+    transform: translateY(-10px); 
+}
+.ri6 button:hover{
+    color:whitesmoke;
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+    transform:translate(2px,2px);
+    transition: 0.9 ease-in-out;
+}     
+.slide video{
+    width: 400px;
+    height: 400px;
+}
+.slider img{
+    width: 400px;
+    height: 400px;
+    clip-path: circle(); 
+}
+.slider span{
+    background-color: whitesmoke;
+    font-family: "Playwrite NG Modern", cursive;
+}
+.ri6 img{
+    transition: transform 0.6s ease-in-out;
+}
+.ri6 img:hover{
+    transform: translateY(-10px); 
+}
+.ri7 img{
+    transition: transform 0.6s ease-in-out;
+}
+.ri7 img:hover{
+    transform: translateY(10px); 
+}
+.slider{
+    text-align: center;
+}
+.ri8{
+    background-color: rgb(239, 187, 187);
+    border-radius: 10px;
+    text-align: center;
+    font-size: xx-large;
+    height: 30rem;
+}
+.ri8 a{
+    text-decoration: none;
+}
+.ri9{
+    display: flex;
+    justify-content: center;
+}
+#h2{
+    margin-left: 20px;
+    font-weight: 1000;
+    font-size: xx-large;
+    margin-top: 0px;
+}
+.ri9 div{
+    width:80%;
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+}
+.ri9 h3{
+    margin-left: 00px;
+}
+.ri10{
+    display: flex;
+    width: 98%;
+}
+.ri10 img{
+    width: 500px;
+    height: 400px;
+    clip-path: circle();
+    transition: transform 0.6s ease-in-out;
+}
+.ri10 img:hover{
+    transform: translateX(50px); 
+}
+.ri10 h3{
+    margin-top: 100px;  
+    font-family: "Roboto Mono", monospace;
+}
+.ri10 h3:hover{
+    transition: transform 0.6s ease-in-out;
+    transform: translateX(50px); 
+}
+.ri10 p{
+    margin-top: 200px;
+    margin-right: 100px;
+    font-family: "Playwrite NG Modern", cursive;
+
+}
+.footer{
+background-color: lightcyan;
+}
+.pa-14 img{
+    height: 100px;
+    width:100px;
+}
+.pa-15{
+    display: flex;
+    justify-content: space-around;
+}
+.pa-15 button{
+    margin-left: 150px;
+    color: blue;
+}
+.pa-15 button:hover{
+    color:whitesmoke;
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+    transform:translate(2px,2px);
+    transition: 0.9 ease-in-out;
+}
+.pa-15 a{
+    text-decoration: none;
+}
+.pa-15 p{
+   font-weight: 700;
+}
+.pa-16{
+    width: 98%;
+    height: 40px;
+}
+.pa-16 div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.pa-16 a{
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+
+    

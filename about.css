@@ -1,0 +1,298 @@
+.head{
+    background-color:white;
+    color: white;
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    animation: slide-in 2s ease forwards;
+}
+
+@keyframes slide-in{
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+.logo img{
+    height: 100px;
+    margin-right:400px ;
+} 
+ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline;
+    margin-left: 20px;
+}
+ nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav ul li a:hover{
+    color:whitesmoke;
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+    transform:translate(2px,2px);
+    transition: 0.9 ease-in-out;
+    
+}
+.logo{
+    animation: slide-in 2s ease forwards;
+}
+.logo img{
+  padding-left: 0%;
+  margin-left: 0%;
+}
+.heading{
+    background-image: url(../assests/Add\ a\ subheading.png);
+    background-size: 100%;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    text-align: center;
+    animation: slide-in 2s ease forwards;
+}
+
+.backimg{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(100, 214, 189);
+    color: rgb(255, 255, 255);
+    height: 300px;
+    width: 450px;
+    margin-left: 300px;
+    margin-top: 100px;
+    opacity: 0.9;
+    margin-top: 150px;
+    margin-left: 300px;
+    font-style: italic;
+    border-radius: 10px;
+    transition: transform 0.6s ease-in-out;
+}
+.backimg:hover{
+    transform: translateY(-10px); 
+}
+.autonomous{
+    display: flex;
+
+}
+.autonomous img{
+    margin-top: 50px;
+    border-radius: 100px;
+    width: 600px;
+    height: 400px;
+    transition: transform 0.6s ease-in-out;
+}
+.autonomous img:hover{
+    transform: translateY(-10px);
+}
+.content{
+    margin-left: 80px;
+    margin-top: 50px;
+    transition: transform 0.6s ease-in-out;
+    font-family: "Playwrite NG Modern", cursive;
+}
+.content:hover{
+    transform: translateX(-10px); 
+}
+.hastag{
+    font-family: "Playwrite NG Modern", cursive;
+}
+.taggy{
+    display: flex;
+    justify-content: space-evenly;
+    p{
+        color:rgb(100, 214, 189) ;
+    }  
+}
+.taggy p:hover{
+    color:whitesmoke;
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+    transform:translate(2px,2px);
+    transition: 0.9 ease-in-out;
+}
+.impact{
+    font-family: "Playwrite NG Modern", cursive;
+}
+.impact button:hover{
+    /* color: blue; */
+    color:whitesmoke;
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+    transform:translate(2px,2px);
+    transition: 0.9 ease-in-out;
+}
+
+.creation{
+    background-image: url(../assests/interview.jpg);
+    height: 800px;
+    width: 100%;
+    color: white;
+    transition: transform 0.2s ease-in-out;
+    }
+.creation:hover{
+    transform: translateY(-5px); 
+}
+.creation nav ul{
+          padding-top: 660px;
+          padding-left: 800px;   
+}
+.creation h2{
+    padding-left: 700px;
+}
+.creation p{
+    padding-left: 700px;
+}
+.award img{
+    width: 50%;
+    margin-left: 300px;
+   
+}
+.award img:hover{
+    transition: transform 0.2s ease-in-out;
+    transition: translateY(-5px);
+}
+.partners{
+    display: flex;
+   
+}
+.partnerbox{
+    background-color: rgb(227, 80, 77);
+    color: rgb(255, 255, 255);
+    height: 100px;
+    width: 450px;
+    opacity: 0.7;
+    margin-left: 80px;
+    padding-top: 70px;
+    padding-left: 10px;
+    border-radius: 10px;
+    transition: transform 0.6s ease-in-out;
+}
+.partnerbox:hover{
+    transform: translateY(-10px); 
+}
+.partner1{
+    width: 650px;
+    font-style: italic;
+    transition: transform 0.6s ease-in-out;  
+    font-family: "Playwrite NG Modern", cursive;
+}
+.partner1:hover{
+    transform: translateX(10px); 
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 10%;
+}
+
+.card {
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px); 
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+.card-content {
+    padding: 15px;
+    padding-top: 50px;
+
+}
+
+.card-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    font-size: 1rem;
+    color: #666666;
+    margin-bottom: 15px;
+}
+
+.card-content button {
+    background-color: black;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-left: 70px;
+}
+
+.card-content button:hover {
+    background-color: darkcyan;
+    scale: 1.1;
+}
+.cardhead{
+   display: flex;
+   justify-content: center;
+   font-size: xx-large;
+}
+.footer{
+    background-color: lightcyan;
+}
+.pa-14 img{
+    height: 100px;
+    width:100px;
+}
+.pa-15{
+    display: flex;
+    justify-content: space-around;
+    a{
+        text-decoration: none;
+    }
+    p{
+        font-weight: 700;
+     }
+    button{
+        margin-left: 150px;
+    }
+    button:hover{
+        color:whitesmoke;
+        background-color: black;
+        padding: 5px;
+        border-radius: 5px;
+        transform:translate(2px,2px);
+        transition: 0.9 ease-in-out;
+    }
+}
+.pa-16{
+    width: 98%;
+    height: 40px;
+    a{
+        text-decoration: none;
+    }
+}
+.pa-16 div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pa-16 a{
+    margin-right: 50px;
+}

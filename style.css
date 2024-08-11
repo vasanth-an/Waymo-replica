@@ -1,0 +1,347 @@
+.head{
+    background-color: white;
+    color: white;
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    animation: slide-in 2s ease forwards;
+}
+@keyframes slide-in{
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+.head img{
+    height: 100px;
+    margin-left: 20px;
+}
+ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline;
+    margin-left: 20px;
+}
+ nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav ul li a:hover{
+    color:whitesmoke;
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+    transform:translate(2px,2px);
+    transition: 0.9 ease-in-out;
+}
+.logo img{
+  padding-left: 0%;
+  margin-left: 0%;
+}
+.p1{
+    display: flex;
+    justify-content: space-evenly;
+    animation: slide-in 2s ease forwards;
+}
+.p1 p{
+    font-weight: 1000;
+    font-style: italic;
+}
+.p1 a{
+    text-decoration: none;
+  
+}
+.pa-1:hover{
+    transition: transform 0.6s ease-in-out;
+    transform: translateX(-10px); 
+}
+.pa-1 a:hover{
+    color:whitesmoke;
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+    transform:translate(2px,2px);
+    transition: 0.9 ease-in-out;
+}
+.first{
+    padding: 20px;
+    transition: 3s;
+    animation: n 5s linear 0s 1 right;
+} 
+.first:hover{
+opacity: 1;
+
+} 
+.vas{
+    display: flex;
+}
+.pa-2 h2{
+        justify-content: space-evenly;
+        padding: 20px;
+    }
+.pa-2 a{
+    text-decoration: none;
+    padding-left: 50px;
+    
+    
+}
+.img2{
+ margin-left: 400px;
+ width: 50%;
+ margin-bottom: 100px;   
+}
+.img2 img{
+    border-radius: 30px;
+    
+        transition: transform 0.6s ease-in-out;
+}       
+.img2 img:hover{
+    transform: translateY(-10px);
+
+}
+
+.video{
+    animation: slide-in 2s ease forwards;
+}
+.video video{
+    width: 100%;
+}
+h1{
+    color: #df07eb9d;
+}
+.pa-3{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-weight: 800;
+    
+}
+.pa-4 img{
+    padding-left: 100px;
+    width:100%;
+    clip-path: circle();
+    transition: transform 0.5s ease-in-out;
+}
+.pa-4 img:hover{
+    transform: translateY(-20px);
+}
+.pa-4 {
+    display: flex;
+    position: relative;
+    padding-left: 50px;
+    font-family: "Playwrite NG Modern", cursive;
+}
+.pa-4 p:hover{
+    transition: transform 0.6s ease-in-out;
+    transform: translateX(-10px); 
+}
+.pa-4 a:hover{
+    color:whitesmoke;
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+    transform:translate(2px,2px);
+    transition: 0.9 ease-in-out;
+}
+.pa-4 p{
+    padding-top: 150px;
+    font-weight: 800;
+}
+.sub{
+    font-weight: 100;
+    font-style: italic;
+}
+.sub1{
+    font-weight: 700;
+    font-style: italic;
+    line-height:5;
+}
+.pa-4 a{
+    padding-top: 200px;
+    text-decoration: none;
+}
+.pa-5{
+    background-color: rgb(239, 187, 187);
+    border-radius: 10px;
+    text-align: center;
+    font-size: xx-large;
+    height: 30rem;
+   
+}
+.pa-5 a{
+    text-decoration: none; 
+}
+.pa-5 a:hover{
+    color: red;
+}
+.pa-6{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    font-size:x-large;
+    height: 7rem;
+    width: 70%;
+    /* margin-left: 10rem ;
+    margin-top: -7%; */
+    margin:-7% 0 0 10rem ;
+    border-radius: 10px;
+    
+}
+.pa-6:hover{
+    transition: transform 0.5s ease-in-out;
+    transform: translateY(-20px);
+
+}
+.pa-6 button:hover{
+    color:whitesmoke;
+    background-color: lightcoral;
+    padding: 5px;
+    border-radius: 5px;
+    transform:translate(2px,2px);
+    transition: 0.9 ease-in-out;
+}
+.pa-7{
+    display: flex;
+    /* align-items: center; */
+    background-image: url(/assests/pedestrian\ crossing\,\ white\ stripes\ on\ black\ asphalt\,\ road\ markings\ zebra\ crossing\,\ place\ to\ cross\ the\ road\,\ traffic\ rules.jpeg);
+    background-repeat: no-repeat;
+    margin-left: 200px;
+    border-radius: 50px;
+}
+.pa-7:hover{
+    transition: transform 0.5s ease-in-out;
+    transform: translateY(-20px);
+}
+.pa-7 a{
+    text-decoration: none;
+}
+.pa-7 a:hover{
+    color:whitesmoke;
+    background-color: lightcoral;
+    padding: 5px;
+    border-radius: 5px;
+    transform:translate(2px,2px);
+    transition: 0.9 ease-in-out;
+}
+
+.pa-8{
+    padding-top: 200px;
+    padding-left: 300px;
+}
+.pa-8 p{
+    margin-top: 70px;
+    font-style: italic;
+    font-weight: bold;
+}
+.pa-8 a{
+    text-decoration: none;
+    margin-top: 100px;
+    align-items: center;
+}
+.pa-9{
+ margin-top: 2;
+}
+.pa-10{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+
+}
+.pa-11{  
+    display: flex;
+    place-items: center;
+    font-family: "Playwrite NG Modern", cursive;  
+}
+.pa-11 img{
+    border-radius: 20px;
+}
+.pa-11 img:hover{
+    transition: transform 0.5s ease-in-out;
+    transform: translateY(-10px);
+}
+.pa-11 a{
+    text-decoration: none;
+}
+.pa-11 a:hover{
+    color:whitesmoke;
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+    transform:translate(2px,2px);
+    transition: 0.9 ease-in-out;
+}
+.pa-12{
+    display: flex;
+   place-items: center;
+   font-family: "Playwrite NG Modern", cursive; 
+}
+.pa-12 img{
+    border-radius: 20px;
+}
+.pa-12 img:hover{
+    transition: transform 0.5s ease-in-out;
+    transform: translateY(-10px);
+}
+.pa-13{
+    /* background-color: rgb(73, 118, 243) ;
+    font-style: italic;
+    font-size:x-large;
+    height: 18rem; */
+    background-color: rgb(239, 187, 187);
+    border-radius: 10px;
+    text-align: center;
+    font-size: x-large;
+    height: 20rem;
+    
+}
+
+.pa-13 h2{
+    text-align: center;
+}
+.pa-13 a{
+    display: flex;
+    padding-left: 400px;
+    text-decoration: none;
+}
+.pa-13 a:hover{
+    transform:translate(2px,2px);
+    transition: 0.9 ease-in-out;
+}
+.pa-14 img{
+    height: 100px;
+    width:100px;
+}
+.pa-15{
+    display: flex;
+    justify-content: space-around;
+}
+.pa-15 button{
+    margin-left: 150px;
+    color: blue;
+}
+.pa-15 a{
+    text-decoration: none;
+}
+.pa-15 p{
+   font-weight: 700;
+}
+.pa-16{
+    width: 98%;
+    height: 40px;
+}
+.pa-16 div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.pa-16 a{
+    margin-right: 50px;
+}
+
